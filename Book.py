@@ -1,6 +1,5 @@
 import uuid
 
-
 class Book:
     def __init__(self, name, author, year, isbn, genre, available_copies):
         self._name = name
